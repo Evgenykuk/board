@@ -1,0 +1,33 @@
+services:
+  board_db:
+    image: postgres:16
+    container_name: board_db
+    environment:
+      POSTGRES_DB: board
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./sql_scheme/board_db.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d board"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  board:
+    build: .
+    container_name: board
+    ports:
+      - "8009:8000"
+    environment:
+      - ASPNETCORE_URLS=http://+:8000
+      - ConnectionStrings__BoardDb=Host=board_db;Port=5432;Database=board;Username=admin;Password=password
+      - Kafka__BootstrapServers=kafka:9092
+      - GroundControl__BaseUrl=http://ground:8000
+    depends_on:
+      board_db:
+        condition: service_healthy
+    restart: unless-stopped
