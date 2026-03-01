@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoardService.Application\BoardService.Application.csproj" />
+    <ProjectReference Include="..\BoardService.Domain\BoardService.Domain.csproj" />
+    <ProjectReference Include="..\BoardService.Infrastructure\BoardService.Infrastructure.csproj" />
+    <ProjectReference Include="..\BoardService.Shared\BoardService.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

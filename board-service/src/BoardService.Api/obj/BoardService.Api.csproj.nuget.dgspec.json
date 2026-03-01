@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\79508\\board-service\\src\\BoardService.Api\\BoardService.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\79508\\board-service\\src\\BoardService.Api\\BoardService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\79508\\board-service\\src\\BoardService.Api\\BoardService.Api.csproj",
+        "projectName": "BoardService.Api",
+        "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Api\\BoardService.Api.csproj",
+        "packagesPath": "C:\\Users\\79508\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\79508\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\79508\\board-service\\src\\BoardService.Application\\BoardService.Application.csproj": {
+                "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Application\\BoardService.Application.csproj"
+              },
+              "C:\\Users\\79508\\board-service\\src\\BoardService.Domain\\BoardService.Domain.csproj": {
+                "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Domain\\BoardService.Domain.csproj"
+              },
+              "C:\\Users\\79508\\board-service\\src\\BoardService.Infrastructure\\BoardService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Infrastructure\\BoardService.Infrastructure.csproj"
+              },
+              "C:\\Users\\79508\\board-service\\src\\BoardService.Shared\\BoardService.Shared.csproj": {
+                "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Shared\\BoardService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\79508\\board-service\\src\\BoardService.Application\\BoardService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\79508\\board-service\\src\\BoardService.Application\\BoardService.Application.csproj",
+        "projectName": "BoardService.Application",
+        "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Application\\BoardService.Application.csproj",
+        "packagesPath": "C:\\Users\\79508\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\79508\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\79508\\board-service\\src\\BoardService.Domain\\BoardService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\79508\\board-service\\src\\BoardService.Domain\\BoardService.Domain.csproj",
+        "projectName": "BoardService.Domain",
+        "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Domain\\BoardService.Domain.csproj",
+        "packagesPath": "C:\\Users\\79508\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\79508\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\79508\\board-service\\src\\BoardService.Infrastructure\\BoardService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\79508\\board-service\\src\\BoardService.Infrastructure\\BoardService.Infrastructure.csproj",
+        "projectName": "BoardService.Infrastructure",
+        "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Infrastructure\\BoardService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\79508\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\79508\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\79508\\board-service\\src\\BoardService.Domain\\BoardService.Domain.csproj": {
+                "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Domain\\BoardService.Domain.csproj"
+              },
+              "C:\\Users\\79508\\board-service\\src\\BoardService.Shared\\BoardService.Shared.csproj": {
+                "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Shared\\BoardService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\79508\\board-service\\src\\BoardService.Shared\\BoardService.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\79508\\board-service\\src\\BoardService.Shared\\BoardService.Shared.csproj",
+        "projectName": "BoardService.Shared",
+        "projectPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Shared\\BoardService.Shared.csproj",
+        "packagesPath": "C:\\Users\\79508\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\79508\\board-service\\src\\BoardService.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\79508\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
